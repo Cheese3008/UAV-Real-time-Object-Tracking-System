@@ -1,0 +1,88 @@
+source /opt/ros/jazzy/setup.bash
+source /home/pihuy/follow/install/setup.bash
+ros2 topic pub /gimbal/cmd/sequence std_msgs/msg/String "{data: 'CENTER_LOOKDOWN_FPV'}"
+ros2 topic pub /gimbal/cmd/sequence std_msgs/msg/String "{data: 'CENTER_LOOKUP_FOLLOW'}"
+ros2 topic pub /gimbal/cmd/sequence std_msgs/msg/String "{data: 'CENTER_LOOKDOWN_LOCK'}"
+ros2 topic pub /gimbal/cmd/sequence std_msgs/msg/String "{data: 'CENTER_LOOKUP_FPV'}"
+
+
+source ~/follow/install/setup.bash
+
+ ros2 run ai_follow object_lock_tracker_node   --ros-args   -p model_path:=/home/pihuy/follow/models/yolov8n.pt   -p enable_gui:=false
+
+ ros2 run ai_follow test1_node --ros-args -p enable_gui:=false -p publish_debug_image:=true
+
+ uvicorn app:app --host 0.0.0.0 --port 8000
+
+ros2 topic pub --once /select_bbox std_msgs/msg/Float32MultiArray \
+"{data: [980.0, 120.0, 260.0, 380.0]}"
+
+
+CENTER_LOOKDOWN_FOLLOW
+
+
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+export ROS_DOMAIN_ID=0
+
+
+sudo systemctl restart aruco-tracker.service 
+
+sudo systemctl restart aruco-tracker.service 
+
+sudo systemctl restart precision-land.service 
+
+sudo systemctl restart target-pose-fusion.service
+
+xem log
+sudo journalctl -u ten service -f
+sudo journalctl -u aruco-tracker -f
+hai node giao tiep voi nhau
+sudo journalctl -u aruco-tracker -u target-pose-fusion -f
+sudo journalctl -u precision-land -f
+
+colcon build \
+  --symlink-install \
+  --allow-overriding cv_bridge image_geometry
+
+// ===== Timeout RESET =====
+        if (_has_valid_pose && !found) {
+            rclcpp::Time now = msg->header.stamp;
+            double dt = (now - _last_seen_time).seconds();
+
+            if (dt > MARKER_TIMEOUT_SEC) {
+                std_msgs::msg::String state_msg;
+                state_msg.data = "RESET";
+                _kalman_reset_pub->publish(state_msg);
+
+                geometry_msgs::msg::PoseStamped reset_msg;
+                reset_msg.header = msg->header;
+                reset_msg.pose.orientation.w = 1.0;
+
+                _target_pose_pub->publish(reset_msg);
+                _has_valid_pose = false;
+            }
+        }
+        else{ std_msgs::msg::String state_msg; state_msg.data = "ACTIVE"; _kalman_reset_pub->publish(state_msg); }
+
+
+
+        Mar 10 03:25:36 pihuy-desktop bash[1338]: ============================================
+Mar 10 03:25:36 pihuy-desktop bash[1338]: 📊 THỐNG KÊ NHIỄU ARUCO (Trong 100 frames vừa qua)
+Mar 10 03:25:36 pihuy-desktop bash[1338]:    * Z trung bình đang ở mức: 1.789 mét
+Mar 10 03:25:36 pihuy-desktop bash[1338]: --------------------------------------------
+Mar 10 03:25:36 pihuy-desktop bash[1338]:  Trục X   | Jitter (StdDev): 18.86 cm  | Peak-to-Peak: 58.84 cm
+Mar 10 03:25:36 pihuy-desktop bash[1338]:  Trục Y   | Jitter (StdDev): 4.46 cm  | Peak-to-Peak: 17.17 cm
+Mar 10 03:25:36 pihuy-desktop bash[1338]:  Trục Z   | Jitter (StdDev): 25.13 cm  | Peak-to-Peak: 73.81 cm
+Mar 10 03:25:36 pihuy-desktop bash[1338]:  Góc Yaw  | Jitter (StdDev): 0.36 deg | Peak-to-Peak: 1.57 deg
+Mar 10 03:25:36 pihuy-desktop bash[1338]: ============================================
+Mar 10 03:25:44 pihuy-desktop bash[1338]: [INFO] [1773127544.063137627] [aruco_tracker_node]:
+Mar 10 03:25:44 pihuy-desktop bash[1338]: ============================================
+Mar 10 03:25:44 pihuy-desktop bash[1338]: 📊 THỐNG KÊ NHIỄU ARUCO (Trong 100 frames vừa qua)
+Mar 10 03:25:44 pihuy-desktop bash[1338]:    * Z trung bình đang ở mức: 1.294 mét
+Mar 10 03:25:44 pihuy-desktop bash[1338]: --------------------------------------------
+Mar 10 03:25:44 pihuy-desktop bash[1338]:  Trục X   | Jitter (StdDev): 18.77 cm  | Peak-to-Peak: 61.74 cm
+Mar 10 03:25:44 pihuy-desktop bash[1338]:  Trục Y   | Jitter (StdDev): 24.32 cm  | Peak-to-Peak: 70.66 cm
+Mar 10 03:25:44 pihuy-desktop bash[1338]:  Trục Z   | Jitter (StdDev): 35.78 cm  | Peak-to-Peak: 110.10 cm
+Mar 10 03:25:44 pihuy-desktop bash[1338]:  Góc Yaw  | Jitter (StdDev): 8.51 deg | Peak-to-Peak: 35.47 deg
+Mar 10 03:25:44 pihuy-desktop bash[1338]: ============================================
+Mar 10 03:25:48 pihuy-desktop bash[1338]: [ WARN:0@387.645] global solvepnp.cpp:123 drawFrameAxes Some of projected axes endpoints are out of frame. The drawn axes may be not reliable.

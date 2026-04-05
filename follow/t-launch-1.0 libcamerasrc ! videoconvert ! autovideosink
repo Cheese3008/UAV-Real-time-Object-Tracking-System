@@ -1,0 +1,86 @@
+[33mFactory Details:[0m
+  [94mRank                     [0mprimary (256)[0m
+  [94mLong-name                [0mlibcamera Source[0m
+  [94mKlass                    [0mSource/Video[0m
+  [94mDescription              [0mLinux Camera source using libcamera[0m
+  [94mAuthor                   [0mNicolas Dufresne <nicolas.dufresne@collabora.com[0m
+
+[33mPlugin Details[0m:
+  [94mName                     [0m[0mlibcamera[0m
+  [94mDescription              [0m[0mlibcamera capture plugin[0m
+  [94mFilename                 [0m[0m/usr/lib/aarch64-linux-gnu/gstreamer-1.0/libgstlibcamera.so[0m
+  [94mVersion                  [0m[0m0.2.0[0m
+  [94mLicense                  [0m[0mLGPL[0m
+  [94mSource module            [0m[0mlibcamera[0m
+  [94mBinary package           [0m[0mlibcamera[0m
+  [94mOrigin URL               [0m[0mhttps://libcamera.org[0m
+
+[32mGObject[0m
+ [95m+----[0m[32mGInitiallyUnowned[0m
+       [95m+----[0m[32mGstObject[0m
+             [95m+----[0m[32mGstElement[0m
+                   [95m+----[0m[32mGstLibcameraSrc[0m
+
+[33mPad Templates[0m:
+  [94mSRC template[0m: [0m'src'[0m
+    [94mAvailability[0m: [0mAlways[0m
+    [94mCapabilities[0m:
+      [33mvideo/x-raw[0m
+      [33mimage/jpeg[0m
+      [33mvideo/x-bayer[0m
+    [94mType[0m: [32mGstLibcameraPad[0m
+    [33mPad Properties[0m:
+    
+      [94mstream-role         [0m: [0mThe selected stream role[0m
+                            [33mflags[0m: [36mreadable[0m, [36mwritable[0m, [36mchangeable only in NULL or READY state[0m
+                            [32mEnum "GstLibcameraStreamRole"[0m [33mDefault[0m: [36m2, "video-recording"[0m
+                               [33m(1)[0m: [36mstill-capture   [0m - [0mlibcamera::StillCapture[0m
+                               [33m(2)[0m: [36mvideo-recording [0m - [0mlibcamera::VideoRecording[0m
+                               [33m(3)[0m: [36mview-finder     [0m - [0mlibcamera::Viewfinder[0m
+      
+  
+  [94mSRC template[0m: [0m'src_%u'[0m
+    [94mAvailability[0m: [0mOn request[0m
+    [94mCapabilities[0m:
+      [33mvideo/x-raw[0m
+      [33mimage/jpeg[0m
+      [33mvideo/x-bayer[0m
+    [94mType[0m: [32mGstLibcameraPad[0m
+    [33mPad Properties[0m:
+    
+      [94mstream-role         [0m: [0mThe selected stream role[0m
+                            [33mflags[0m: [36mreadable[0m, [36mwritable[0m, [36mchangeable only in NULL or READY state[0m
+                            [32mEnum "GstLibcameraStreamRole"[0m [33mDefault[0m: [36m2, "video-recording"[0m
+                               [33m(1)[0m: [36mstill-capture   [0m - [0mlibcamera::StillCapture[0m
+                               [33m(2)[0m: [36mvideo-recording [0m - [0mlibcamera::VideoRecording[0m
+                               [33m(3)[0m: [36mview-finder     [0m - [0mlibcamera::Viewfinder[0m
+      
+
+[0mElement has no clocking capabilities.[0m
+[0mElement has no URI handling capabilities.[0m
+
+[33mPads:[0m
+  [94mSRC[0m: [0m'src'[0m
+    [94mPad Template[0m: [0m'src'[0m
+
+[33mElement Properties[0m:
+
+  [94mauto-focus-mode     [0m: [0mAvailable options: AfModeManual, AfModeAuto or AfModeContinuous.[0m
+                        [33mflags[0m: [36mwritable[0m
+                        [32mEnum "GstLibcameraAutoFocus"[0m [33mDefault[0m: [36m0, "manual-focus"[0m
+                           [33m(0)[0m: [36mmanual-focus    [0m - [0mAfModeManual[0m
+                           [33m(1)[0m: [36mautomatic-auto-focus[0m - [0mAfModeAuto[0m
+                           [33m(2)[0m: [36mcontinuous-auto-focus[0m - [0mAfModeContinuous[0m [0mWrite only[0m
+  
+  [94mcamera-name         [0m: [0mSelect by name which camera to use.[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m, [36mchangeable only in NULL or READY state[0m
+                        [32mString[0m. [33mDefault[0m: [36mnull[0m
+  
+  [94mname                [0m: [0mThe name of the object[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [32mString[0m. [33mDefault[0m: [36m"libcamerasrc0"[0m
+  
+  [94mparent              [0m: [0mThe parent of the object[0m
+                        [33mflags[0m: [36mreadable[0m, [36mwritable[0m
+                        [0mObject of type[0m [32m"GstObject"[0m
+  

@@ -1,0 +1,33 @@
+from setuptools import find_packages, setup
+
+package_name = 'ai_follow'
+
+setup(
+    name=package_name,
+    version='0.0.0',
+    packages=find_packages(exclude=['test']),
+    data_files=[
+        ('share/ament_index/resource_index/packages',
+            ['resource/' + package_name]),
+        ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/config', ['config/object_lock_tracker.yaml']),
+    ],
+    install_requires=['setuptools'],
+    zip_safe=True,
+    maintainer='pihuy',
+    maintainer_email='vogiahuy257@gmail.com',
+    description='TODO: Package description',
+    license='TODO: License declaration',
+    extras_require={
+        'test': [
+            'pytest',
+        ],
+    },
+    entry_points={
+        'console_scripts': [
+            'object_lock_tracker_node = ai_follow.object_lock_tracker_node:main',
+            'gimbal_pid_node = ai_follow.gimbal_pid_node:main',
+            'test1_node = ai_follow.test1:main',
+        ],
+    },
+)

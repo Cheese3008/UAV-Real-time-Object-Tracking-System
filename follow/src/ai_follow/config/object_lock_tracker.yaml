@@ -1,0 +1,9 @@
+object_lock_tracker_node:
+  ros__parameters:
+    image_topic: "/camera/image_raw"
+    debug_image_topic: "/image_proc"
+    target_pose_topic: "/target_pose"
+    reset_topic: "/reset"
+    tag_state_topic: "/tag_state"
+    model_path: "/home/pihuy/models/best.pt"
+    conf_thres: 0.4
