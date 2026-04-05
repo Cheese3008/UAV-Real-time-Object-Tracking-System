@@ -1,0 +1,16 @@
+/home/pihuy/follow/install/rtsp_camera/lib/rtsp_camera/rtsp_camera_node
+/home/pihuy/follow/install/rtsp_camera/share/ament_index/resource_index/package_run_dependencies/rtsp_camera
+/home/pihuy/follow/install/rtsp_camera/share/ament_index/resource_index/parent_prefix_path/rtsp_camera
+/home/pihuy/follow/install/rtsp_camera/share/rtsp_camera/environment/ament_prefix_path.sh
+/home/pihuy/follow/install/rtsp_camera/share/rtsp_camera/environment/ament_prefix_path.dsv
+/home/pihuy/follow/install/rtsp_camera/share/rtsp_camera/environment/path.sh
+/home/pihuy/follow/install/rtsp_camera/share/rtsp_camera/environment/path.dsv
+/home/pihuy/follow/install/rtsp_camera/share/rtsp_camera/local_setup.bash
+/home/pihuy/follow/install/rtsp_camera/share/rtsp_camera/local_setup.sh
+/home/pihuy/follow/install/rtsp_camera/share/rtsp_camera/local_setup.zsh
+/home/pihuy/follow/install/rtsp_camera/share/rtsp_camera/local_setup.dsv
+/home/pihuy/follow/install/rtsp_camera/share/rtsp_camera/package.dsv
+/home/pihuy/follow/install/rtsp_camera/share/ament_index/resource_index/packages/rtsp_camera
+/home/pihuy/follow/install/rtsp_camera/share/rtsp_camera/cmake/rtsp_cameraConfig.cmake
+/home/pihuy/follow/install/rtsp_camera/share/rtsp_camera/cmake/rtsp_cameraConfig-version.cmake
+/home/pihuy/follow/install/rtsp_camera/share/rtsp_camera/package.xml

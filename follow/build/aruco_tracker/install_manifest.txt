@@ -1,0 +1,17 @@
+/home/pihuy/follow/install/aruco_tracker/lib/aruco_tracker/aruco_tracker
+/home/pihuy/follow/install/aruco_tracker/share/aruco_tracker//cfg/params.yaml
+/home/pihuy/follow/install/aruco_tracker/share/ament_index/resource_index/package_run_dependencies/aruco_tracker
+/home/pihuy/follow/install/aruco_tracker/share/ament_index/resource_index/parent_prefix_path/aruco_tracker
+/home/pihuy/follow/install/aruco_tracker/share/aruco_tracker/environment/ament_prefix_path.sh
+/home/pihuy/follow/install/aruco_tracker/share/aruco_tracker/environment/ament_prefix_path.dsv
+/home/pihuy/follow/install/aruco_tracker/share/aruco_tracker/environment/path.sh
+/home/pihuy/follow/install/aruco_tracker/share/aruco_tracker/environment/path.dsv
+/home/pihuy/follow/install/aruco_tracker/share/aruco_tracker/local_setup.bash
+/home/pihuy/follow/install/aruco_tracker/share/aruco_tracker/local_setup.sh
+/home/pihuy/follow/install/aruco_tracker/share/aruco_tracker/local_setup.zsh
+/home/pihuy/follow/install/aruco_tracker/share/aruco_tracker/local_setup.dsv
+/home/pihuy/follow/install/aruco_tracker/share/aruco_tracker/package.dsv
+/home/pihuy/follow/install/aruco_tracker/share/ament_index/resource_index/packages/aruco_tracker
+/home/pihuy/follow/install/aruco_tracker/share/aruco_tracker/cmake/aruco_trackerConfig.cmake
+/home/pihuy/follow/install/aruco_tracker/share/aruco_tracker/cmake/aruco_trackerConfig-version.cmake
+/home/pihuy/follow/install/aruco_tracker/share/aruco_tracker/package.xml

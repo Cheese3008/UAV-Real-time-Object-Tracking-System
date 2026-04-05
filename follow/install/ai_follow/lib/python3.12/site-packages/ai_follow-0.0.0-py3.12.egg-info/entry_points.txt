@@ -1,0 +1,4 @@
+[console_scripts]
+gimbal_pid_node = ai_follow.gimbal_pid_node:main
+object_lock_tracker_node = ai_follow.object_lock_tracker_node:main
+test1_node = ai_follow.test1:main

@@ -1,0 +1,89 @@
+[0.016s] Invoking command in '/home/pihuy/follow/build/px4_ros2_cpp': CMAKE_PREFIX_PATH=/home/pihuy/follow/install/px4_msgs:/home/pihuy/follow/install/vision_opencv:/home/pihuy/follow/install/target_pose_fusion:/home/pihuy/follow/install/rtsp_camera:/home/pihuy/follow/install/example_mode_with_executor_cpp:/home/pihuy/follow/install/example_mode_rtl_replacement_cpp:/home/pihuy/follow/install/example_mode_manual_cpp:/home/pihuy/follow/install/example_mode_goto_global_cpp:/home/pihuy/follow/install/example_mode_goto_cpp:/home/pihuy/follow/install/example_mode_fw_attitude_cpp:/home/pihuy/follow/install/example_local_navigation_cpp:/home/pihuy/follow/install/example_global_navigation_cpp:/home/pihuy/follow/install/example_executor_with_multiple_modes_cpp:/home/pihuy/follow/install/aruco_tracker:/home/pihuy/follow/install/px4_ros2_cpp:/home/pihuy/follow/install/image_geometry:/home/pihuy/follow/install/cv_bridge:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/pihuy/follow/install/opencv_tests:/home/pihuy/follow/install/gimbal_controller:/home/pihuy/follow/install/ai_follow:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pihuy/follow/install/px4_msgs/lib:/home/pihuy/follow/install/px4_ros2_cpp/lib:/home/pihuy/follow/install/image_geometry/lib:/home/pihuy/follow/install/cv_bridge/lib:/usr/local/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib /usr/bin/cmake --build /home/pihuy/follow/build/px4_ros2_cpp -- -j4 -l4
+[0.237s] [  4%] Built target integration_utils
+[0.285s] [ 54%] Built target px4_ros2_cpp
+[0.320s] [ 58%] Built target gtest
+[0.372s] [ 62%] Built target unit_utils
+[0.384s] [ 66%] Built target gtest_main
+[0.484s] [ 81%] Built target integration_tests
+[0.594s] [100%] Built target px4_ros2_cpp_unit_tests
+[0.625s] Invoked command in '/home/pihuy/follow/build/px4_ros2_cpp' returned '0': CMAKE_PREFIX_PATH=/home/pihuy/follow/install/px4_msgs:/home/pihuy/follow/install/vision_opencv:/home/pihuy/follow/install/target_pose_fusion:/home/pihuy/follow/install/rtsp_camera:/home/pihuy/follow/install/example_mode_with_executor_cpp:/home/pihuy/follow/install/example_mode_rtl_replacement_cpp:/home/pihuy/follow/install/example_mode_manual_cpp:/home/pihuy/follow/install/example_mode_goto_global_cpp:/home/pihuy/follow/install/example_mode_goto_cpp:/home/pihuy/follow/install/example_mode_fw_attitude_cpp:/home/pihuy/follow/install/example_local_navigation_cpp:/home/pihuy/follow/install/example_global_navigation_cpp:/home/pihuy/follow/install/example_executor_with_multiple_modes_cpp:/home/pihuy/follow/install/aruco_tracker:/home/pihuy/follow/install/px4_ros2_cpp:/home/pihuy/follow/install/image_geometry:/home/pihuy/follow/install/cv_bridge:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/pihuy/follow/install/opencv_tests:/home/pihuy/follow/install/gimbal_controller:/home/pihuy/follow/install/ai_follow:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pihuy/follow/install/px4_msgs/lib:/home/pihuy/follow/install/px4_ros2_cpp/lib:/home/pihuy/follow/install/image_geometry/lib:/home/pihuy/follow/install/cv_bridge/lib:/usr/local/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib /usr/bin/cmake --build /home/pihuy/follow/build/px4_ros2_cpp -- -j4 -l4
+[0.627s] Invoking command in '/home/pihuy/follow/build/px4_ros2_cpp': CMAKE_PREFIX_PATH=/home/pihuy/follow/install/px4_msgs:/home/pihuy/follow/install/vision_opencv:/home/pihuy/follow/install/target_pose_fusion:/home/pihuy/follow/install/rtsp_camera:/home/pihuy/follow/install/example_mode_with_executor_cpp:/home/pihuy/follow/install/example_mode_rtl_replacement_cpp:/home/pihuy/follow/install/example_mode_manual_cpp:/home/pihuy/follow/install/example_mode_goto_global_cpp:/home/pihuy/follow/install/example_mode_goto_cpp:/home/pihuy/follow/install/example_mode_fw_attitude_cpp:/home/pihuy/follow/install/example_local_navigation_cpp:/home/pihuy/follow/install/example_global_navigation_cpp:/home/pihuy/follow/install/example_executor_with_multiple_modes_cpp:/home/pihuy/follow/install/aruco_tracker:/home/pihuy/follow/install/px4_ros2_cpp:/home/pihuy/follow/install/image_geometry:/home/pihuy/follow/install/cv_bridge:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/pihuy/follow/install/opencv_tests:/home/pihuy/follow/install/gimbal_controller:/home/pihuy/follow/install/ai_follow:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pihuy/follow/install/px4_msgs/lib:/home/pihuy/follow/install/px4_ros2_cpp/lib:/home/pihuy/follow/install/image_geometry/lib:/home/pihuy/follow/install/cv_bridge/lib:/usr/local/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib /usr/bin/cmake --install /home/pihuy/follow/build/px4_ros2_cpp
+[0.647s] -- Install configuration: ""
+[0.647s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/library_path.sh
+[0.648s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/library_path.dsv
+[0.648s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2
+[0.648s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/navigation
+[0.648s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental
+[0.648s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental/global_position_measurement_interface.hpp
+[0.649s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental/local_position_measurement_interface.hpp
+[0.649s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental/navigation_interface_base.hpp
+[0.649s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/navigation/groups.dox
+[0.649s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/common
+[0.650s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/common/setpoint_base.hpp
+[0.651s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/common/requirement_flags.hpp
+[0.652s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/common/frame.hpp
+[0.652s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/common/context.hpp
+[0.653s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/components
+[0.653s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/components/wait_for_fmu.hpp
+[0.654s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/components/health_and_arming_checks.hpp
+[0.654s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/components/mode_executor.hpp
+[0.657s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/components/mode.hpp
+[0.657s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/components/events.hpp
+[0.657s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/components/groups.dox
+[0.657s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/components/message_compatibility_check.hpp
+[0.657s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/components/overrides.hpp
+[0.658s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/components/manual_control_input.hpp
+[0.658s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/components/node_with_mode.hpp
+[0.658s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/control
+[0.660s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types
+[0.661s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/goto.hpp
+[0.661s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/direct_actuators.hpp
+[0.661s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental
+[0.661s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/attitude.hpp
+[0.661s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/rates.hpp
+[0.661s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/trajectory.hpp
+[0.662s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/groups.dox
+[0.662s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/control/groups.dox
+[0.662s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/control/peripheral_actuators.hpp
+[0.663s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/vehicle_state
+[0.663s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/battery.hpp
+[0.663s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/vehicle_status.hpp
+[0.664s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/vtol_status.hpp
+[0.666s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/home_position.hpp
+[0.666s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/groups.dox
+[0.667s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/land_detected.hpp
+[0.667s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/utils
+[0.667s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/utils/subscription.hpp
+[0.667s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/utils/groups.dox
+[0.667s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/utils/geodesic.hpp
+[0.667s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/utils/message_version.hpp
+[0.667s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/utils/geometry.hpp
+[0.669s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/utils/frame_conversion.hpp
+[0.669s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/odometry
+[0.669s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/odometry/attitude.hpp
+[0.669s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/odometry/angular_velocity.hpp
+[0.669s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/odometry/groups.dox
+[0.670s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/odometry/airspeed.hpp
+[0.670s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/odometry/local_position.hpp
+[0.670s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/include/px4_ros2/odometry/global_position.hpp
+[0.670s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/lib/libpx4_ros2_cpp.so
+[0.670s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/ament_index/resource_index/package_run_dependencies/px4_ros2_cpp
+[0.670s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/ament_index/resource_index/parent_prefix_path/px4_ros2_cpp
+[0.670s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/ament_prefix_path.sh
+[0.670s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/ament_prefix_path.dsv
+[0.670s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/path.sh
+[0.671s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/path.dsv
+[0.671s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.bash
+[0.674s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.sh
+[0.675s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.zsh
+[0.675s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.dsv
+[0.675s] -- Installing: /home/pihuy/follow/install/px4_ros2_cpp/share/px4_ros2_cpp/package.dsv
+[0.675s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/ament_index/resource_index/packages/px4_ros2_cpp
+[0.675s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppExport.cmake
+[0.675s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppExport-noconfig.cmake
+[0.676s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/ament_cmake_export_targets-extras.cmake
+[0.677s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.677s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppConfig.cmake
+[0.677s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppConfig-version.cmake
+[0.677s] -- Up-to-date: /home/pihuy/follow/install/px4_ros2_cpp/share/px4_ros2_cpp/package.xml
+[0.678s] Invoked command in '/home/pihuy/follow/build/px4_ros2_cpp' returned '0': CMAKE_PREFIX_PATH=/home/pihuy/follow/install/px4_msgs:/home/pihuy/follow/install/vision_opencv:/home/pihuy/follow/install/target_pose_fusion:/home/pihuy/follow/install/rtsp_camera:/home/pihuy/follow/install/example_mode_with_executor_cpp:/home/pihuy/follow/install/example_mode_rtl_replacement_cpp:/home/pihuy/follow/install/example_mode_manual_cpp:/home/pihuy/follow/install/example_mode_goto_global_cpp:/home/pihuy/follow/install/example_mode_goto_cpp:/home/pihuy/follow/install/example_mode_fw_attitude_cpp:/home/pihuy/follow/install/example_local_navigation_cpp:/home/pihuy/follow/install/example_global_navigation_cpp:/home/pihuy/follow/install/example_executor_with_multiple_modes_cpp:/home/pihuy/follow/install/aruco_tracker:/home/pihuy/follow/install/px4_ros2_cpp:/home/pihuy/follow/install/image_geometry:/home/pihuy/follow/install/cv_bridge:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/pihuy/follow/install/opencv_tests:/home/pihuy/follow/install/gimbal_controller:/home/pihuy/follow/install/ai_follow:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pihuy/follow/install/px4_msgs/lib:/home/pihuy/follow/install/px4_ros2_cpp/lib:/home/pihuy/follow/install/image_geometry/lib:/home/pihuy/follow/install/cv_bridge/lib:/usr/local/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib /usr/bin/cmake --install /home/pihuy/follow/build/px4_ros2_cpp

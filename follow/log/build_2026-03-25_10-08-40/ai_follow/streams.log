@@ -1,0 +1,23 @@
+[2.211s] Invoking command in '/home/pihuy/follow/src/ai_follow': AMENT_PREFIX_PATH=/home/pihuy/follow/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pihuy/follow/install/cv_bridge:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pihuy/follow/install/cv_bridge/lib:/usr/local/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib PYTHONPATH=/home/pihuy/follow/build/ai_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pihuy/follow/install/ai_follow/lib/python3.12/site-packages:/home/pihuy/follow/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(web_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ai_follow build --build-base /home/pihuy/follow/build/ai_follow/build install --record /home/pihuy/follow/build/ai_follow/install.log --single-version-externally-managed install_data
+[2.758s] running egg_info
+[2.805s] writing ../../build/ai_follow/ai_follow.egg-info/PKG-INFO
+[2.806s] writing dependency_links to ../../build/ai_follow/ai_follow.egg-info/dependency_links.txt
+[2.808s] writing entry points to ../../build/ai_follow/ai_follow.egg-info/entry_points.txt
+[2.809s] writing requirements to ../../build/ai_follow/ai_follow.egg-info/requires.txt
+[2.813s] writing top-level names to ../../build/ai_follow/ai_follow.egg-info/top_level.txt
+[2.886s] reading manifest file '../../build/ai_follow/ai_follow.egg-info/SOURCES.txt'
+[2.888s] writing manifest file '../../build/ai_follow/ai_follow.egg-info/SOURCES.txt'
+[2.889s] running build
+[2.889s] running build_py
+[2.890s] running install
+[2.900s] running install_lib
+[2.938s] running install_data
+[2.938s] running install_egg_info
+[2.975s] removing '/home/pihuy/follow/install/ai_follow/lib/python3.12/site-packages/ai_follow-0.0.0-py3.12.egg-info' (and everything under it)
+[2.978s] Copying ../../build/ai_follow/ai_follow.egg-info to /home/pihuy/follow/install/ai_follow/lib/python3.12/site-packages/ai_follow-0.0.0-py3.12.egg-info
+[2.979s] running install_scripts
+[3.246s] Installing gimbal_pid_node script to /home/pihuy/follow/install/ai_follow/lib/ai_follow
+[3.247s] Installing object_lock_tracker_node script to /home/pihuy/follow/install/ai_follow/lib/ai_follow
+[3.247s] Installing test1_node script to /home/pihuy/follow/install/ai_follow/lib/ai_follow
+[3.250s] writing list of installed files to '/home/pihuy/follow/build/ai_follow/install.log'
+[3.357s] Invoked command in '/home/pihuy/follow/src/ai_follow' returned '0': AMENT_PREFIX_PATH=/home/pihuy/follow/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pihuy/follow/install/cv_bridge:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pihuy/follow/install/cv_bridge/lib:/usr/local/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib PYTHONPATH=/home/pihuy/follow/build/ai_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pihuy/follow/install/ai_follow/lib/python3.12/site-packages:/home/pihuy/follow/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(web_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ai_follow build --build-base /home/pihuy/follow/build/ai_follow/build install --record /home/pihuy/follow/build/ai_follow/install.log --single-version-externally-managed install_data

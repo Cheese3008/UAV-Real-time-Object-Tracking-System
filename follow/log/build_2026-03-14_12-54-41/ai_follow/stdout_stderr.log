@@ -1,0 +1,35 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+  self.local_index = Environment(self.shadow_path + sys.path)
+Removing /home/pihuy/follow/install/ai_follow/lib/python3.12/site-packages/ai-follow.egg-link (link to .)
+running egg_info
+writing ../../build/ai_follow/ai_follow.egg-info/PKG-INFO
+writing dependency_links to ../../build/ai_follow/ai_follow.egg-info/dependency_links.txt
+writing entry points to ../../build/ai_follow/ai_follow.egg-info/entry_points.txt
+writing requirements to ../../build/ai_follow/ai_follow.egg-info/requires.txt
+writing top-level names to ../../build/ai_follow/ai_follow.egg-info/top_level.txt
+reading manifest file '../../build/ai_follow/ai_follow.egg-info/SOURCES.txt'
+writing manifest file '../../build/ai_follow/ai_follow.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pihuy/follow/build/ai_follow/build
+creating /home/pihuy/follow/build/ai_follow/build/lib
+creating /home/pihuy/follow/build/ai_follow/build/lib/ai_follow
+copying ai_follow/__init__.py -> /home/pihuy/follow/build/ai_follow/build/lib/ai_follow
+copying ai_follow/object_lock_tracker_node.py -> /home/pihuy/follow/build/ai_follow/build/lib/ai_follow
+running install
+running install_lib
+creating /home/pihuy/follow/install/ai_follow/lib/python3.12/site-packages/ai_follow
+copying /home/pihuy/follow/build/ai_follow/build/lib/ai_follow/__init__.py -> /home/pihuy/follow/install/ai_follow/lib/python3.12/site-packages/ai_follow
+copying /home/pihuy/follow/build/ai_follow/build/lib/ai_follow/object_lock_tracker_node.py -> /home/pihuy/follow/install/ai_follow/lib/python3.12/site-packages/ai_follow
+byte-compiling /home/pihuy/follow/install/ai_follow/lib/python3.12/site-packages/ai_follow/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/pihuy/follow/install/ai_follow/lib/python3.12/site-packages/ai_follow/object_lock_tracker_node.py to object_lock_tracker_node.cpython-312.pyc
+running install_data
+copying resource/ai_follow -> /home/pihuy/follow/install/ai_follow/share/ament_index/resource_index/packages
+copying package.xml -> /home/pihuy/follow/install/ai_follow/share/ai_follow
+copying config/object_lock_tracker.yaml -> /home/pihuy/follow/install/ai_follow/share/ai_follow/config
+running install_egg_info
+Copying ../../build/ai_follow/ai_follow.egg-info to /home/pihuy/follow/install/ai_follow/lib/python3.12/site-packages/ai_follow-0.0.0-py3.12.egg-info
+running install_scripts
+Installing object_lock_tracker_node script to /home/pihuy/follow/install/ai_follow/lib/ai_follow
+writing list of installed files to '/home/pihuy/follow/build/ai_follow/install.log'

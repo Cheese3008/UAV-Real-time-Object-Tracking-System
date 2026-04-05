@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000447] (-) JobUnselected: {'identifier': 'aruco_tracker'}
+[0.001797] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.001858] (-) JobUnselected: {'identifier': 'example_executor_with_multiple_modes_cpp'}
+[0.001886] (-) JobUnselected: {'identifier': 'example_global_navigation_cpp'}
+[0.002139] (-) JobUnselected: {'identifier': 'example_local_navigation_cpp'}
+[0.002175] (-) JobUnselected: {'identifier': 'example_mode_fw_attitude_cpp'}
+[0.002209] (-) JobUnselected: {'identifier': 'example_mode_goto_cpp'}
+[0.002232] (-) JobUnselected: {'identifier': 'example_mode_goto_global_cpp'}
+[0.002250] (-) JobUnselected: {'identifier': 'example_mode_manual_cpp'}
+[0.002271] (-) JobUnselected: {'identifier': 'example_mode_rtl_replacement_cpp'}
+[0.002290] (-) JobUnselected: {'identifier': 'example_mode_with_executor_cpp'}
+[0.002562] (-) JobUnselected: {'identifier': 'gimbal_controller'}
+[0.002698] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.002814] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.002845] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.002865] (-) JobUnselected: {'identifier': 'px4_ros2_cpp'}
+[0.002896] (-) JobUnselected: {'identifier': 'rtsp_camera'}
+[0.002926] (-) JobUnselected: {'identifier': 'target_pose_fusion'}
+[0.002946] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.002992] (ai_follow) JobQueued: {'identifier': 'ai_follow', 'dependencies': OrderedDict({'cv_bridge': '/home/pihuy/follow/install/cv_bridge'})}
+[0.003104] (ai_follow) JobStarted: {'identifier': 'ai_follow'}
+[0.099605] (-) TimerEvent: {}
+[0.199960] (-) TimerEvent: {}
+[0.300315] (-) TimerEvent: {}
+[0.400712] (-) TimerEvent: {}
+[0.502711] (-) TimerEvent: {}
+[0.603108] (-) TimerEvent: {}
+[0.703596] (-) TimerEvent: {}
+[0.803985] (-) TimerEvent: {}
+[0.904326] (-) TimerEvent: {}
+[1.004706] (-) TimerEvent: {}
+[1.105032] (-) TimerEvent: {}
+[1.205352] (-) TimerEvent: {}
+[1.305726] (-) TimerEvent: {}
+[1.360181] (ai_follow) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pihuy/follow/build/ai_follow/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/pihuy/follow/build/ai_follow', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pihuy', 'SSH_CLIENT': '172.20.10.2 60922 22', 'LC_TIME': 'vi_VN', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pihuy/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/pihuy/follow/install/cv_bridge/lib:/usr/local/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib', 'BROWSER': '/home/pihuy/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/helpers/browser.sh', 'HOME': '/home/pihuy', 'TERM_PROGRAM_VERSION': '1.108.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4c19f11f-7def-4897-8433-e8f79c8ca451.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pihuy/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'vi_VN', 'VSCODE_GIT_ASKPASS_NODE': '/home/pihuy/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/pihuy/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pihuy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/home/pihuy/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/remote-cli:/home/pihuy/.local/bin:/opt/ros/jazzy/bin:/home/pihuy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pihuy/.vscode-server/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'vi_VN', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/pihuy/.vscode-server/extensions/ms-python.debugpy-2025.18.0/.noConfigDebugAdapterEndpoints/endpoint-9f341ab5edc4219e.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/pihuy/.vscode-server/data/User/workspaceStorage/ca136f2baf673f668cc9f7332096f9ff/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'vi_VN', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-23ed587fbc.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/pihuy/follow/install/cv_bridge:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'vi_VN', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'vi_VN', 'LC_IDENTIFICATION': 'vi_VN', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pihuy/follow/build/ai_follow', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '172.20.10.2 60922 172.20.10.5 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pihuy/follow/build/ai_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pihuy/follow/install/ai_follow/lib/python3.12/site-packages:/home/pihuy/follow/install/cv_bridge/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'vi_VN', 'LC_PAPER': 'vi_VN', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/pihuy/follow/install/cv_bridge:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.405834] (-) TimerEvent: {}
+[1.506402] (-) TimerEvent: {}
+[1.606859] (-) TimerEvent: {}
+[1.707187] (-) TimerEvent: {}
+[1.808536] (-) TimerEvent: {}
+[1.862972] (ai_follow) StdoutLine: {'line': b'running develop\n'}
+[1.908645] (-) TimerEvent: {}
+[2.008950] (-) TimerEvent: {}
+[2.107483] (ai_follow) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)\n'}
+[2.107845] (ai_follow) StderrLine: {'line': b'  self.local_index = Environment(self.shadow_path + sys.path)\n'}
+[2.109022] (-) TimerEvent: {}
+[2.161548] (ai_follow) StdoutLine: {'line': b'running egg_info\n'}
+[2.190550] (ai_follow) StdoutLine: {'line': b'writing ai_follow.egg-info/PKG-INFO\n'}
+[2.191006] (ai_follow) StdoutLine: {'line': b'writing dependency_links to ai_follow.egg-info/dependency_links.txt\n'}
+[2.192287] (ai_follow) StdoutLine: {'line': b'writing entry points to ai_follow.egg-info/entry_points.txt\n'}
+[2.192987] (ai_follow) StdoutLine: {'line': b'writing requirements to ai_follow.egg-info/requires.txt\n'}
+[2.193713] (ai_follow) StdoutLine: {'line': b'writing top-level names to ai_follow.egg-info/top_level.txt\n'}
+[2.209128] (-) TimerEvent: {}
+[2.254719] (ai_follow) StdoutLine: {'line': b"reading manifest file 'ai_follow.egg-info/SOURCES.txt'\n"}
+[2.255775] (ai_follow) StdoutLine: {'line': b"writing manifest file 'ai_follow.egg-info/SOURCES.txt'\n"}
+[2.287665] (ai_follow) StdoutLine: {'line': b'running build_ext\n'}
+[2.287978] (ai_follow) StdoutLine: {'line': b'Creating /home/pihuy/follow/install/ai_follow/lib/python3.12/site-packages/ai-follow.egg-link (link to .)\n'}
+[2.288723] (ai_follow) StdoutLine: {'line': b'Installing gimbal_pid_node script to /home/pihuy/follow/install/ai_follow/lib/ai_follow\n'}
+[2.289021] (ai_follow) StdoutLine: {'line': b'Installing object_lock_tracker_node script to /home/pihuy/follow/install/ai_follow/lib/ai_follow\n'}
+[2.289317] (ai_follow) StdoutLine: {'line': b'\n'}
+[2.289469] (ai_follow) StdoutLine: {'line': b'Installed /home/pihuy/follow/build/ai_follow\n'}
+[2.289570] (ai_follow) StdoutLine: {'line': b'running symlink_data\n'}
+[2.289745] (ai_follow) StdoutLine: {'line': b'symbolically linking /home/pihuy/follow/build/ai_follow/resource/ai_follow -> /home/pihuy/follow/install/ai_follow/share/ament_index/resource_index/packages\n'}
+[2.289929] (ai_follow) StdoutLine: {'line': b'symbolically linking /home/pihuy/follow/build/ai_follow/package.xml -> /home/pihuy/follow/install/ai_follow/share/ai_follow\n'}
+[2.290090] (ai_follow) StdoutLine: {'line': b'symbolically linking /home/pihuy/follow/build/ai_follow/config/object_lock_tracker.yaml -> /home/pihuy/follow/install/ai_follow/share/ai_follow/config\n'}
+[2.309236] (-) TimerEvent: {}
+[2.390413] (ai_follow) CommandEnded: {'returncode': 0}
+[2.409479] (-) TimerEvent: {}
+[2.414572] (ai_follow) JobEnded: {'identifier': 'ai_follow', 'rc': 0}
+[2.415950] (-) EventReactorShutdown: {}

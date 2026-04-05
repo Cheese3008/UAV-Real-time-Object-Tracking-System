@@ -1,0 +1,21 @@
+[4.132s] Invoking command in '/home/pihuy/follow/src/gimbal_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pihuy/follow/build/gimbal_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pihuy/follow/install/gimbal_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gimbal_controller build --build-base /home/pihuy/follow/build/gimbal_controller/build install --record /home/pihuy/follow/build/gimbal_controller/install.log --single-version-externally-managed install_data
+[5.015s] running egg_info
+[5.066s] writing ../../build/gimbal_controller/gimbal_controller.egg-info/PKG-INFO
+[5.066s] writing dependency_links to ../../build/gimbal_controller/gimbal_controller.egg-info/dependency_links.txt
+[5.067s] writing entry points to ../../build/gimbal_controller/gimbal_controller.egg-info/entry_points.txt
+[5.068s] writing requirements to ../../build/gimbal_controller/gimbal_controller.egg-info/requires.txt
+[5.069s] writing top-level names to ../../build/gimbal_controller/gimbal_controller.egg-info/top_level.txt
+[5.323s] reading manifest file '../../build/gimbal_controller/gimbal_controller.egg-info/SOURCES.txt'
+[5.326s] writing manifest file '../../build/gimbal_controller/gimbal_controller.egg-info/SOURCES.txt'
+[5.328s] running build
+[5.330s] running build_py
+[5.332s] running install
+[5.358s] running install_lib
+[5.519s] running install_data
+[5.522s] running install_egg_info
+[5.673s] removing '/home/pihuy/follow/install/gimbal_controller/lib/python3.12/site-packages/gimbal_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[5.673s] Copying ../../build/gimbal_controller/gimbal_controller.egg-info to /home/pihuy/follow/install/gimbal_controller/lib/python3.12/site-packages/gimbal_controller-0.0.0-py3.12.egg-info
+[5.678s] running install_scripts
+[6.273s] Installing siyi_gimbal_node script to /home/pihuy/follow/install/gimbal_controller/lib/gimbal_controller
+[6.276s] writing list of installed files to '/home/pihuy/follow/build/gimbal_controller/install.log'
+[6.424s] Invoked command in '/home/pihuy/follow/src/gimbal_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pihuy/follow/build/gimbal_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pihuy/follow/install/gimbal_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gimbal_controller build --build-base /home/pihuy/follow/build/gimbal_controller/build install --record /home/pihuy/follow/build/gimbal_controller/install.log --single-version-externally-managed install_data

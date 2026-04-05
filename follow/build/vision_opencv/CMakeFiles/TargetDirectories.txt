@@ -1,0 +1,9 @@
+/home/pihuy/follow/build/vision_opencv/CMakeFiles/uninstall.dir
+/home/pihuy/follow/build/vision_opencv/CMakeFiles/vision_opencv_uninstall.dir
+/home/pihuy/follow/build/vision_opencv/CMakeFiles/test.dir
+/home/pihuy/follow/build/vision_opencv/CMakeFiles/edit_cache.dir
+/home/pihuy/follow/build/vision_opencv/CMakeFiles/rebuild_cache.dir
+/home/pihuy/follow/build/vision_opencv/CMakeFiles/list_install_components.dir
+/home/pihuy/follow/build/vision_opencv/CMakeFiles/install.dir
+/home/pihuy/follow/build/vision_opencv/CMakeFiles/install/local.dir
+/home/pihuy/follow/build/vision_opencv/CMakeFiles/install/strip.dir

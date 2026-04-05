@@ -1,0 +1,10 @@
+/home/pihuy/follow/build/aruco_tracker/CMakeFiles/uninstall.dir
+/home/pihuy/follow/build/aruco_tracker/CMakeFiles/aruco_tracker_uninstall.dir
+/home/pihuy/follow/build/aruco_tracker/CMakeFiles/aruco_tracker.dir
+/home/pihuy/follow/build/aruco_tracker/CMakeFiles/test.dir
+/home/pihuy/follow/build/aruco_tracker/CMakeFiles/edit_cache.dir
+/home/pihuy/follow/build/aruco_tracker/CMakeFiles/rebuild_cache.dir
+/home/pihuy/follow/build/aruco_tracker/CMakeFiles/list_install_components.dir
+/home/pihuy/follow/build/aruco_tracker/CMakeFiles/install.dir
+/home/pihuy/follow/build/aruco_tracker/CMakeFiles/install/local.dir
+/home/pihuy/follow/build/aruco_tracker/CMakeFiles/install/strip.dir

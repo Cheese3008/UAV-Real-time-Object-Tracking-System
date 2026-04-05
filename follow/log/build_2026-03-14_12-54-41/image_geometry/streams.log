@@ -1,0 +1,54 @@
+[0.051s] Invoking command in '/home/pihuy/follow/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pihuy/follow/install/opencv_tests:/home/pihuy/follow/install/gimbal_controller:/home/pihuy/follow/install/ai_follow:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pihuy/follow/build/image_geometry -- -j4 -l4
+[0.411s] [ 18%] Built target gtest_main
+[0.446s] [ 45%] Built target image_geometry
+[0.494s] [ 45%] Built target ament_cmake_python_copy_image_geometry
+[0.508s] [ 63%] Built target gtest
+[0.701s] [ 81%] Built target image_geometry-utest-equi
+[0.759s] [100%] Built target image_geometry-utest
+[1.183s] running egg_info
+[1.236s] writing image_geometry.egg-info/PKG-INFO
+[1.237s] writing dependency_links to image_geometry.egg-info/dependency_links.txt
+[1.239s] writing top-level names to image_geometry.egg-info/top_level.txt
+[1.451s] reading manifest file 'image_geometry.egg-info/SOURCES.txt'
+[1.454s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[1.561s] [100%] Built target ament_cmake_python_build_image_geometry_egg
+[1.596s] Invoked command in '/home/pihuy/follow/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pihuy/follow/install/opencv_tests:/home/pihuy/follow/install/gimbal_controller:/home/pihuy/follow/install/ai_follow:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pihuy/follow/build/image_geometry -- -j4 -l4
+[1.650s] Invoking command in '/home/pihuy/follow/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pihuy/follow/install/opencv_tests:/home/pihuy/follow/install/gimbal_controller:/home/pihuy/follow/install/ai_follow:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pihuy/follow/build/image_geometry
+[1.687s] -- Install configuration: ""
+[1.690s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[1.692s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[1.694s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/lib/python3.12/site-packages/image_geometry-4.1.0-py3.12.egg-info
+[1.697s] -- Installing: /home/pihuy/follow/install/image_geometry/lib/python3.12/site-packages/image_geometry-4.1.0-py3.12.egg-info/dependency_links.txt
+[1.698s] -- Installing: /home/pihuy/follow/install/image_geometry/lib/python3.12/site-packages/image_geometry-4.1.0-py3.12.egg-info/top_level.txt
+[1.700s] -- Installing: /home/pihuy/follow/install/image_geometry/lib/python3.12/site-packages/image_geometry-4.1.0-py3.12.egg-info/SOURCES.txt
+[1.702s] -- Installing: /home/pihuy/follow/install/image_geometry/lib/python3.12/site-packages/image_geometry-4.1.0-py3.12.egg-info/PKG-INFO
+[1.702s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/lib/python3.12/site-packages/image_geometry
+[1.704s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/lib/python3.12/site-packages/image_geometry/cameramodels.py
+[1.704s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/lib/python3.12/site-packages/image_geometry/__init__.py
+[1.856s] Listing '/home/pihuy/follow/install/image_geometry/lib/python3.12/site-packages/image_geometry'...
+[1.901s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/include/image_geometry
+[1.904s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/include/image_geometry/image_geometry
+[1.904s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.hpp
+[1.904s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/include/image_geometry/image_geometry/stereo_camera_model.hpp
+[1.904s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/include/image_geometry/image_geometry/visibility_control.hpp
+[1.947s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/lib/libimage_geometry.so
+[1.961s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[1.963s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[1.965s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[1.966s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[1.967s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/image_geometry/environment/path.sh
+[1.969s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/image_geometry/environment/path.dsv
+[1.972s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/image_geometry/local_setup.bash
+[1.974s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/image_geometry/local_setup.sh
+[1.976s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/image_geometry/local_setup.zsh
+[1.978s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/image_geometry/local_setup.dsv
+[1.980s] -- Installing: /home/pihuy/follow/install/image_geometry/share/image_geometry/package.dsv
+[1.981s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[1.991s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport.cmake
+[1.993s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport-noconfig.cmake
+[1.994s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[1.994s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.994s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[1.994s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[1.994s] -- Up-to-date: /home/pihuy/follow/install/image_geometry/share/image_geometry/package.xml
+[2.026s] Invoked command in '/home/pihuy/follow/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pihuy/follow/install/opencv_tests:/home/pihuy/follow/install/gimbal_controller:/home/pihuy/follow/install/ai_follow:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pihuy/follow/build/image_geometry

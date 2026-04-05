@@ -1,0 +1,4 @@
+source;share/rtsp_camera/local_setup.bash
+source;share/rtsp_camera/local_setup.dsv
+source;share/rtsp_camera/local_setup.sh
+source;share/rtsp_camera/local_setup.zsh

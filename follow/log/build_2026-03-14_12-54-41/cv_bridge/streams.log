@@ -1,0 +1,60 @@
+[0.047s] Invoking command in '/home/pihuy/follow/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pihuy/follow/install/opencv_tests:/home/pihuy/follow/install/gimbal_controller:/home/pihuy/follow/install/ai_follow:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pihuy/follow/build/cv_bridge -- -j4 -l4
+[0.421s] [ 11%] Built target gtest_main
+[0.456s] [ 33%] Built target cv_bridge
+[0.490s] [ 33%] Built target ament_cmake_python_copy_cv_bridge
+[0.511s] [ 44%] Built target gtest
+[0.727s] [ 83%] Built target cv_bridge-utest
+[0.760s] [100%] Built target cv_bridge_boost
+[1.359s] running egg_info
+[1.427s] writing cv_bridge.egg-info/PKG-INFO
+[1.428s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[1.433s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[1.589s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[1.591s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[1.700s] [100%] Built target ament_cmake_python_build_cv_bridge_egg
+[1.751s] Invoked command in '/home/pihuy/follow/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pihuy/follow/install/opencv_tests:/home/pihuy/follow/install/gimbal_controller:/home/pihuy/follow/install/ai_follow:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pihuy/follow/build/cv_bridge -- -j4 -l4
+[1.757s] Invoking command in '/home/pihuy/follow/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pihuy/follow/install/opencv_tests:/home/pihuy/follow/install/gimbal_controller:/home/pihuy/follow/install/ai_follow:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pihuy/follow/build/cv_bridge
+[1.790s] -- Install configuration: ""
+[1.791s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[1.793s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[1.794s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-4.1.0-py3.12.egg-info
+[1.795s] -- Installing: /home/pihuy/follow/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-4.1.0-py3.12.egg-info/dependency_links.txt
+[1.799s] -- Installing: /home/pihuy/follow/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-4.1.0-py3.12.egg-info/top_level.txt
+[1.802s] -- Installing: /home/pihuy/follow/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-4.1.0-py3.12.egg-info/SOURCES.txt
+[1.803s] -- Installing: /home/pihuy/follow/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-4.1.0-py3.12.egg-info/PKG-INFO
+[1.805s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/lib/python3.12/site-packages/cv_bridge
+[1.807s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/core.py
+[1.809s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/__init__.py
+[1.920s] Listing '/home/pihuy/follow/install/cv_bridge/lib/python3.12/site-packages/cv_bridge'...
+[1.922s] Listing '/home/pihuy/follow/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/boost'...
+[1.992s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/lib/libcv_bridge.so
+[1.995s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[1.997s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/boost/cv_bridge_boost.so
+[2.002s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/include/cv_bridge
+[2.009s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/include/cv_bridge/cv_bridge
+[2.015s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.hpp
+[2.016s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp
+[2.017s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/include/cv_bridge/cv_bridge/visibility_control.h
+[2.017s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/include/cv_bridge/cv_bridge/cv_mat_sensor_msgs_image_type_adapter.hpp
+[2.017s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/lib/libcv_bridge.so
+[2.017s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[2.017s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[2.020s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[2.025s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[2.027s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/cv_bridge/environment/path.sh
+[2.030s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[2.032s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/cv_bridge/local_setup.bash
+[2.032s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/cv_bridge/local_setup.sh
+[2.032s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[2.033s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[2.033s] -- Installing: /home/pihuy/follow/install/cv_bridge/share/cv_bridge/package.dsv
+[2.046s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[2.056s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[2.058s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake
+[2.059s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[2.062s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.074s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[2.075s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[2.075s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[2.075s] -- Up-to-date: /home/pihuy/follow/install/cv_bridge/share/cv_bridge/package.xml
+[2.136s] Invoked command in '/home/pihuy/follow/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pihuy/follow/install/opencv_tests:/home/pihuy/follow/install/gimbal_controller:/home/pihuy/follow/install/ai_follow:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pihuy/follow/build/cv_bridge

@@ -1,0 +1,26 @@
+[1.715s] Invoking command in '/home/pihuy/follow/src/ai_follow': AMENT_PREFIX_PATH=/home/pihuy/follow/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pihuy/follow/install/cv_bridge:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pihuy/follow/install/cv_bridge/lib:/usr/local/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib PYTHONPATH=/home/pihuy/follow/build/ai_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pihuy/follow/install/ai_follow/lib/python3.12/site-packages:/home/pihuy/follow/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ai_follow build --build-base /home/pihuy/follow/build/ai_follow/build install --record /home/pihuy/follow/build/ai_follow/install.log --single-version-externally-managed install_data
+[2.153s] running egg_info
+[2.182s] writing ../../build/ai_follow/ai_follow.egg-info/PKG-INFO
+[2.182s] writing dependency_links to ../../build/ai_follow/ai_follow.egg-info/dependency_links.txt
+[2.184s] writing entry points to ../../build/ai_follow/ai_follow.egg-info/entry_points.txt
+[2.185s] writing requirements to ../../build/ai_follow/ai_follow.egg-info/requires.txt
+[2.187s] writing top-level names to ../../build/ai_follow/ai_follow.egg-info/top_level.txt
+[2.249s] reading manifest file '../../build/ai_follow/ai_follow.egg-info/SOURCES.txt'
+[2.250s] writing manifest file '../../build/ai_follow/ai_follow.egg-info/SOURCES.txt'
+[2.251s] running build
+[2.251s] running build_py
+[2.251s] copying ai_follow/test1_node.py -> /home/pihuy/follow/build/ai_follow/build/lib/ai_follow
+[2.251s] running install
+[2.261s] running install_lib
+[2.289s] copying /home/pihuy/follow/build/ai_follow/build/lib/ai_follow/test1_node.py -> /home/pihuy/follow/install/ai_follow/lib/python3.12/site-packages/ai_follow
+[2.290s] byte-compiling /home/pihuy/follow/install/ai_follow/lib/python3.12/site-packages/ai_follow/test1_node.py to test1_node.cpython-312.pyc
+[2.302s] running install_data
+[2.302s] running install_egg_info
+[2.333s] removing '/home/pihuy/follow/install/ai_follow/lib/python3.12/site-packages/ai_follow-0.0.0-py3.12.egg-info' (and everything under it)
+[2.333s] Copying ../../build/ai_follow/ai_follow.egg-info to /home/pihuy/follow/install/ai_follow/lib/python3.12/site-packages/ai_follow-0.0.0-py3.12.egg-info
+[2.336s] running install_scripts
+[2.549s] Installing gimbal_pid_node script to /home/pihuy/follow/install/ai_follow/lib/ai_follow
+[2.550s] Installing object_lock_tracker_node script to /home/pihuy/follow/install/ai_follow/lib/ai_follow
+[2.552s] Installing test1_node script to /home/pihuy/follow/install/ai_follow/lib/ai_follow
+[2.556s] writing list of installed files to '/home/pihuy/follow/build/ai_follow/install.log'
+[2.640s] Invoked command in '/home/pihuy/follow/src/ai_follow' returned '0': AMENT_PREFIX_PATH=/home/pihuy/follow/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pihuy/follow/install/cv_bridge:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pihuy/follow/install/cv_bridge/lib:/usr/local/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib PYTHONPATH=/home/pihuy/follow/build/ai_follow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pihuy/follow/install/ai_follow/lib/python3.12/site-packages:/home/pihuy/follow/install/cv_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ai_follow build --build-base /home/pihuy/follow/build/ai_follow/build install --record /home/pihuy/follow/build/ai_follow/install.log --single-version-externally-managed install_data

@@ -1,0 +1,2 @@
+[console_scripts]
+siyi_gimbal_node = gimbal_controller.siyi_gimbal_node:main
