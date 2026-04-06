@@ -21,7 +21,6 @@ Pipeline chính của hệ thống:
 ---
 
 ## Cấu trúc thư mục
-
 ```bash
 UAV-Real-time-Object-Tracking-System/
 ├── README.md
@@ -174,9 +173,5 @@ Dự án cũng bao gồm:
 
 - Tăng độ ổn định khi track lại mục tiêu sau khi bị mất
 - Tối ưu tốc độ inference trên thiết bị nhúng
-- Bổ sung launch file và tài liệu hướng dẫn đầy đủ hơn
-- Chuẩn hóa topic và cấu trúc package
-- Tích hợp ước lượng độ sâu ổn định hơn
-- Bổ sung hình minh họa kiến trúc hệ thống và video demo
 
 ---
